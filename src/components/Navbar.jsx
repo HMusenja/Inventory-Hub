@@ -23,19 +23,11 @@ function Navbar() {
       <div className="max-w-7xl mx-auto px-4">
         <div className="flex justify-between h-16">
           {/* Logo Section with Custom Image */}
-          <div className="flex items-center flex-shrink-0 mr-10">
-            <Link
-              to="/"
-              className="flex items-center space-x-2 text-xl font-bold text-gray-800 hover:text-gray-600 transition-colors duration-200"
-            >
-              <img
-                src={"./src/assets/logo.png"}
-                alt="Inventory Manager Logo"
-                className="h-10 w-auto object-contain"
-              />
-              <span>Inventory Manager</span>
-            </Link>
-          </div>
+          <h1>
+            <span className="text-blue-800 font-extrabold text-4xl">i</span>
+          
+            <span className="text-red-800 font-extrabold italic text-3xl">HUB</span>
+          </h1>
           {/* Desktop Navigation */}
           <div className="hidden md:flex items-center justify-end flex-grow space-x-6">
             {navItems.map((item) => (
